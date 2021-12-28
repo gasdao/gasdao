@@ -3,10 +3,10 @@
 The smart contracts and Merkle airdrop details for Gas DAO.
 
 ## Deployments
-* GasDao Token: XXX
-* GasDao Governor: XXX
-* GasDao Timelock: XXX
-* GasDao Tokenlock: XXX
+* GAS Token: XXX
+* GAS Governor: XXX
+* GAS Timelock: XXX
+* GAS Tokenlock: XXX
 
 ## Merkle Airdrop
 
