@@ -2,6 +2,8 @@
 
 The smart contracts and Merkle airdrop details for Gas DAO.
 
+For more details on the airdrop and how to claim, see XXX.
+
 ## Deployments
 * GAS Token: XXX
 * GAS Governor: XXX
