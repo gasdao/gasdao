@@ -13,6 +13,7 @@ Claim here: https://gasdao.org
 ## Merkle Airdrop
 
 The files that constitute the Merkle airdrop can be found and verified below:
+* Full gas data: https://s3.wasabisys.com/gasdao/gas.csv.gz
 * Final Aidrop CSV including Merkle Proofs: https://s3.wasabisys.com/gasdao/airdrop_final.csv.zip
 * Merkle Root: https://s3.wasabisys.com/gasdao/merkleRoot.txt
 * Transaction setting the Merkle root: https://etherscan.io/tx/0x1aa2e9f6ceb67357586b19862c2ea349235d45a234a9d4ac3aaec7391a301fcb
