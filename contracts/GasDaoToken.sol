@@ -14,7 +14,6 @@ import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
  *       - Airdrop claim functionality via `claimTokens`. At creation time the tokens that
  *         should be available for the airdrop are transferred to the token contract address;
  *         airdrop claims are made from this balance.
- *       - Support for the owner (the DAO) to mint new tokens, at up to 2% PA.
  */
 contract GasDaoToken is ERC20, ERC20Permit, ERC20Votes, Ownable {
     bytes32 public merkleRoot;
