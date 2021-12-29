@@ -25,7 +25,7 @@ contract GasDaoGovernor is Governor, GovernorProposalThreshold, GovernorCounting
     }
 
     function proposalThreshold() public pure override returns (uint256) {
-        return 100_000_000e18;
+        return 1_000_000_000e18;
     }
 
     function quorumDenominator() public pure virtual override returns (uint256) {
