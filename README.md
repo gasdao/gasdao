@@ -21,3 +21,26 @@ The files that constitute the Merkle airdrop can be found and verified below:
 * Transaction giving the Governor proposal rights on the Timelock: https://etherscan.io/tx/0x8a6e726b9f6f5ed29efaff3da03861e358044065e9abb37c1bc0085228a9a5a2
 * Transaction relinquishing control of the timelock: https://etherscan.io/tx/0x57012e25303a4d22c5d197651be1980a51e26e7353045ceec704eed494fbd51d
 * Transaction starting the vest: https://etherscan.io/tx/0xb223417c415d9ca817a91f9e33036317f3e43f0f33cad0fb8d9a4cba7408149c
+
+## Gas DAO Staking
+Gas DAO Staking is described in the Snapshot proposal: https://snapshot.org/#/gasdao.eth/proposal/0x277d50e163ba3152692f4f242b38e1d65ee684e10c701aa354aac01aacd3af28. The contract is here: https://github.com/gasdao/gasdao/blob/main/contracts/GasDaoStaking.sol. The script to calculate the reward for all holders is here: https://github.com/gasdao/gasdao/blob/main/gas_rebate.go
+
+* ETH Txs since Gas DAO launched: https://s3.wasabisys.com/gasdao/gasdao_txs.zip
+* ETH Logs related to Gas DAO token: https://s3.wasabisys.com/gasdao/gasdao_logs.zip
+
+### To run:
+First run:
+```
+mkdir data_eth
+go mod init gasdao
+go mod tidy
+```
+
+Then download the data files listed above and unzip them into the `data_eth` folder.
+
+Then run:
+```
+go run gas_rebate.go
+```
+
+This will generate a file `rewards.csv`.
