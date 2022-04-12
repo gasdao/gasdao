@@ -27,6 +27,7 @@ Gas DAO Staking is described in the Snapshot proposal: https://snapshot.org/#/ga
 
 * ETH Txs since Gas DAO launched: https://s3.wasabisys.com/gasdao/gasdao_txs.zip
 * ETH Logs related to Gas DAO token: https://s3.wasabisys.com/gasdao/gasdao_logs.zip
+* Final Gas DAO staking rewards: https://s3.us-east-1.wasabisys.com/gasdao/rewards_processed.csv
 
 ### To run:
 First run:
